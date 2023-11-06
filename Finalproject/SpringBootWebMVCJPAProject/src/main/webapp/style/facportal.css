@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #6C757D;
+    color: rgb(13, 13, 13);
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #161515;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #a8adb1;
+}
+.content {
+    padding: 20px;
+}
+footer {
+    background-color: #6C757D;
+    padding: 10px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    position: absolute;
+    margin-top: 1rem;
+    bottom: 1px;
+    width: 98.7%;
+}
+/* cards.css */
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #a8adb1; /* Add a blue color border */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transition for the box-shadow property */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #a8adb1; /* Change box-shadow on hover for shine effect */
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
